@@ -12,9 +12,9 @@ const Header: React.FC = () => {
         </a>
       </div>
       <nav className="hidden md:flex items-center gap-8">
-        <a className="text-sm font-extrabold text-green-600 hover:text-blue-600 transition-colors" href="#">Home</a>
-        <a className="text-sm font-extrabold text-green-600 hover:text-blue-600 transition-colors" href="#">Blog</a>
-        <a className="text-sm font-extrabold text-green-600 hover:text-blue-600 transition-colors" href="#">Contact</a>
+        <a className="text-lg font-extrabold text-green-600 hover:text-blue-600 transition-colors" href="#">Home</a>
+        <a className="text-lg font-extrabold text-green-600 hover:text-blue-600 transition-colors" href="#">Blog</a>
+        <a className="text-lg font-extrabold text-green-600 hover:text-blue-600 transition-colors" href="#">Contact</a>
       </nav>
       <div className="flex items-center gap-4">
         <a href="https://github.com/naveens441" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 transition-colors">
