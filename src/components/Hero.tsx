@@ -20,10 +20,10 @@ const Hero: React.FC = () => {
         <p className="text-lg md:text-xl text-green-900 mb-10 max-w-3xl drop-shadow-sm">I craft seamless web experiences with a focus on performance and user engagement. Reach out to me for innovative digital solutions.</p>
         <div className="flex flex-col sm:flex-row gap-4">
           <a className="inline-flex items-center justify-center bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg" href="#projects">
-            <span className="material-symbols-outlined mr-2">code</span> View My Work
+            <span className="material-symbols-outlined mr-2"></span> View My Work
           </a>
           <button className="inline-flex items-center justify-center bg-gray-200 text-gray-800 font-bold py-3 px-8 rounded-lg hover:bg-gray-300 transition-all duration-300 transform hover:scale-105 shadow-lg dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">
-            <span className="material-symbols-outlined mr-2">chat</span> Let's Chat
+            <span className="material-symbols-outlined mr-2"></span> Let's Chat
           </button>
         </div>
       </div>
