@@ -104,7 +104,19 @@ const Projects: React.FC = () => {
   return (
     <section className="px-4 sm:px-6 lg:px-8 py-16 lg:py-24 bg-gradient-to-b from-gray-50 to-white" id="skills">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-16 text-gray-900">My Skills</h2>
+        <div className="flex flex-col items-center mb-16">
+          <div className="flex items-center gap-4">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-center bg-clip-text text-transparent bg-gradient-to-r from-green-500 via-blue-500 to-purple-600">
+              My Skills
+            </h2>
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-100/60 text-sm font-medium text-gray-800 shadow-sm animate-float-small">
+              <svg className="w-4 h-4 text-green-600" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                <path d="M12 2C9.79 2 8 3.79 8 6c0 .53.11 1.03.3 1.48C7.52 7.9 7 8.88 7 10c0 1.66 1.34 3 3 3h4c1.66 0 3-1.34 3-3 0-1.12-.52-2.1-1.3-2.52.19-.45.3-.95.3-1.48 0-2.21-1.79-4-4-4z" />
+              </svg>
+              mind
+            </span>
+          </div>
+        </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-8">
           {skills.map((skill, index) => (
             <div
